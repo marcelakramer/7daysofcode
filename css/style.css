@@ -1,40 +1,55 @@
+body {
+    margin: 0;
+}
+
 nav {
-    width: 100%;
+    width: 90rem;
     height: 5rem;
     display: flex;
-    flex-direction: row;
     justify-content: space-around;
+    align-items: center;
     font-family: 'Inter', sans-serif;
-    font-weight: 500;
     font-size: 1rem;
+    font-weight: 500;
     color: #667085;
-    line-height: 1.5rem;
 }
 
 #logo {
     display: flex;
-    flex-direction: row;
+    align-items: center;
     gap: 0.5rem;
-    padding-left: 112px;
+    font-size: 1.125rem;
     color: #3A404E;
-
-}
-
-#logo img {
-    width: 1.688rem;
-    height: 1.688rem;
 }
 
 #navigation-bar {
-    padding-left: 23.688rem;
-    width: 22.625rem;
     display: flex;
-    gap: 2rem
+    gap: 2rem;
 }
 
-#login button {
+#login {
+    display: flex;
+    gap: 1.875rem;
+}
+
+button {
+    width: 7rem;
+    height: 2.75rem;
+    font-size: 1rem;
+    font-family: 'Inter', sans-serif;
+    border: none;
+    border-radius: 0.5rem;
+}
+
+#entrar {
+    font-weight: 500;
+    color: #667085;
+    background-color: #fff;
+}
+
+#cadastrar {
     color: #fff;
     background-color: #8e2424;
-    border: none;
-    border-radius: 0.2rem;
 }
+
+
